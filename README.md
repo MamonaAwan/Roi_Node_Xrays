@@ -1,0 +1,2 @@
+# Roi_Node_Xrays
+The main idea behind detecting the ROI nodes is their stark difference as constituents in the image.      The ROIs follow a general rule of being a closed formation which may or may not have a significant intensity difference from the neighborhood. Hence, the focus is on finding the convex formation of a closed polygon in external contours detected in the edges found by canny edge detection.     Taking in account of another restriction followed by these ROI is the minute size, so all extensive contours should be removed.
